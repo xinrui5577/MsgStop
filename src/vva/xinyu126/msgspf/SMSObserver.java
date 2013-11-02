@@ -91,8 +91,7 @@ public class SMSObserver extends ContentObserver{
 			smsEntity.setReplyPathPresent(cursor.getString(9));
 			smsEntity.setSubject(cursor.getString(10));
 			smsEntity.setBody(cursor.getString(11));
-			smsEntity.setServiceCenter(cursor.getString(12));
-			
+			smsEntity.setServiceCenter(cursor.getString(12));			
 			smsEntitys.add(smsEntity);
 		}
 		return smsEntitys;
